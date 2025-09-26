@@ -1,0 +1,11 @@
+#-- Python --
+
+py 파일은 int8에 맞는 parameter 생성 및 이후 재양자화를 위해 필요한 정보를 저장합니다. 또한, input file 도 int8에 맞게 변환합니다.
+한 번 실행하셔서 관련 디렉토리 및 파일을 생성하시면 됩니다. 
+
+# -- C++ --
+tasks.json을 수정해서 build 옵션 설정하시면 사용하는 환경에 맞게 c 빌드하면 될겁니다.
+이후에 디렉토리에 맞게 명령어 입력해서 실행시키시면 됩니다.
+예시)
+D:\Source\Source_AP_share\main.exe D:\Source\Source_AP_share\Static_INT8_Params D:\Source\Source_AP_share\Test_Images_TXT
+저의 경우 D:\Source\Source_AP_share\ 안에 모든 폴더 및 파일이 있는 구조입니다. 
